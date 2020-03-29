@@ -15,6 +15,8 @@ Add this to your `.pre-commit-config.yaml`:
         rev: ''  # Use the sha / tag you want to point at
         hooks:
         -   id: brakeman
+            args: ["--no-pager"]
+            pass_filenames: false
 
 
 **Based on**: https://github.com/pre-commit/mirrors-ruby-lint
