@@ -11,7 +11,7 @@ For brakeman: see https://github.com/presidentbeef/brakeman
 
 Add this to your `.pre-commit-config.yaml`:
 
-    -   repo: https://github.com/adithyabsk/brakeman
+    -   repo: https://github.com/adithyabsk/mirrors-brakeman
         rev: ''  # Use the sha / tag you want to point at
         hooks:
         -   id: brakeman
